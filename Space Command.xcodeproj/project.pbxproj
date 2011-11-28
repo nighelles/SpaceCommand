@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31F80B40148416CE003C2DBF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31F80B3F148416CE003C2DBF /* Cocoa.framework */; };
+		31F80B4A148416CE003C2DBF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31F80B48148416CE003C2DBF /* InfoPlist.strings */; };
+		31F80B4C148416CE003C2DBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F80B4B148416CE003C2DBF /* main.m */; };
+		31F80B50148416CE003C2DBF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 31F80B4E148416CE003C2DBF /* Credits.rtf */; };
+		31F80B53148416CE003C2DBF /* Space_CommandAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F80B52148416CE003C2DBF /* Space_CommandAppDelegate.m */; };
+		31F80B56148416CE003C2DBF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31F80B54148416CE003C2DBF /* MainMenu.xib */; };
+		31F80B5E148416CE003C2DBF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31F80B5D148416CE003C2DBF /* SenTestingKit.framework */; };
+		31F80B5F148416CE003C2DBF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31F80B3F148416CE003C2DBF /* Cocoa.framework */; };
+		31F80B67148416CE003C2DBF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31F80B65148416CE003C2DBF /* InfoPlist.strings */; };
+		31F80B69148416CE003C2DBF /* Space_CommandTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 31F80B68148416CE003C2DBF /* Space_CommandTests.h */; };
+		31F80B6B148416CE003C2DBF /* Space_CommandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F80B6A148416CE003C2DBF /* Space_CommandTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31F80B60148416CE003C2DBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31F80B32148416CD003C2DBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31F80B3A148416CE003C2DBF;
+			remoteInfo = "Space Command";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31F80B3B148416CE003C2DBF /* Space Command.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Command.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31F80B3F148416CE003C2DBF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		31F80B42148416CE003C2DBF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		31F80B43148416CE003C2DBF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		31F80B44148416CE003C2DBF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		31F80B47148416CE003C2DBF /* Space Command-Info.plist */ = {isa = PBXFileReference; path = "Space Command-Info.plist"; sourceTree = "<group>"; };
+		31F80B49148416CE003C2DBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		31F80B4B148416CE003C2DBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31F80B4D148416CE003C2DBF /* Space Command-Prefix.pch */ = {isa = PBXFileReference; path = "Space Command-Prefix.pch"; sourceTree = "<group>"; };
+		31F80B4F148416CE003C2DBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		31F80B51148416CE003C2DBF /* Space_CommandAppDelegate.h */ = {isa = PBXFileReference; path = Space_CommandAppDelegate.h; sourceTree = "<group>"; };
+		31F80B52148416CE003C2DBF /* Space_CommandAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Space_CommandAppDelegate.m; sourceTree = "<group>"; };
+		31F80B55148416CE003C2DBF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		31F80B5C148416CE003C2DBF /* Space CommandTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space CommandTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31F80B5D148416CE003C2DBF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		31F80B64148416CE003C2DBF /* Space CommandTests-Info.plist */ = {isa = PBXFileReference; path = "Space CommandTests-Info.plist"; sourceTree = "<group>"; };
+		31F80B66148416CE003C2DBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		31F80B68148416CE003C2DBF /* Space_CommandTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Space_CommandTests.h; sourceTree = "<group>"; };
+		31F80B6A148416CE003C2DBF /* Space_CommandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Space_CommandTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31F80B38148416CE003C2DBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F80B40148416CE003C2DBF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31F80B58148416CE003C2DBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F80B5E148416CE003C2DBF /* SenTestingKit.framework in Frameworks */,
+				31F80B5F148416CE003C2DBF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31F80B30148416CD003C2DBF = {
+			isa = PBXGroup;
+			children = (
+				31F80B45148416CE003C2DBF /* Space Command */,
+				31F80B62148416CE003C2DBF /* Space CommandTests */,
+				31F80B3E148416CE003C2DBF /* Frameworks */,
+				31F80B3C148416CE003C2DBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31F80B3C148416CE003C2DBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31F80B3B148416CE003C2DBF /* Space Command.app */,
+				31F80B5C148416CE003C2DBF /* Space CommandTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31F80B3E148416CE003C2DBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31F80B3F148416CE003C2DBF /* Cocoa.framework */,
+				31F80B5D148416CE003C2DBF /* SenTestingKit.framework */,
+				31F80B41148416CE003C2DBF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31F80B41148416CE003C2DBF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31F80B42148416CE003C2DBF /* AppKit.framework */,
+				31F80B43148416CE003C2DBF /* CoreData.framework */,
+				31F80B44148416CE003C2DBF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		31F80B45148416CE003C2DBF /* Space Command */ = {
+			isa = PBXGroup;
+			children = (
+				31F80B51148416CE003C2DBF /* Space_CommandAppDelegate.h */,
+				31F80B52148416CE003C2DBF /* Space_CommandAppDelegate.m */,
+				31F80B54148416CE003C2DBF /* MainMenu.xib */,
+				31F80B46148416CE003C2DBF /* Supporting Files */,
+			);
+			path = "Space Command";
+			sourceTree = "<group>";
+		};
+		31F80B46148416CE003C2DBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31F80B47148416CE003C2DBF /* Space Command-Info.plist */,
+				31F80B48148416CE003C2DBF /* InfoPlist.strings */,
+				31F80B4B148416CE003C2DBF /* main.m */,
+				31F80B4D148416CE003C2DBF /* Space Command-Prefix.pch */,
+				31F80B4E148416CE003C2DBF /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31F80B62148416CE003C2DBF /* Space CommandTests */ = {
+			isa = PBXGroup;
+			children = (
+				31F80B68148416CE003C2DBF /* Space_CommandTests.h */,
+				31F80B6A148416CE003C2DBF /* Space_CommandTests.m */,
+				31F80B63148416CE003C2DBF /* Supporting Files */,
+			);
+			path = "Space CommandTests";
+			sourceTree = "<group>";
+		};
+		31F80B63148416CE003C2DBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31F80B64148416CE003C2DBF /* Space CommandTests-Info.plist */,
+				31F80B65148416CE003C2DBF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31F80B3A148416CE003C2DBF /* Space Command */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31F80B6E148416CE003C2DBF /* Build configuration list for PBXNativeTarget "Space Command" */;
+			buildPhases = (
+				31F80B37148416CE003C2DBF /* Sources */,
+				31F80B38148416CE003C2DBF /* Frameworks */,
+				31F80B39148416CE003C2DBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Space Command";
+			productName = "Space Command";
+			productReference = 31F80B3B148416CE003C2DBF /* Space Command.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31F80B5B148416CE003C2DBF /* Space CommandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31F80B71148416CE003C2DBF /* Build configuration list for PBXNativeTarget "Space CommandTests" */;
+			buildPhases = (
+				31F80B57148416CE003C2DBF /* Sources */,
+				31F80B58148416CE003C2DBF /* Frameworks */,
+				31F80B59148416CE003C2DBF /* Resources */,
+				31F80B5A148416CE003C2DBF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31F80B61148416CE003C2DBF /* PBXTargetDependency */,
+			);
+			name = "Space CommandTests";
+			productName = "Space CommandTests";
+			productReference = 31F80B5C148416CE003C2DBF /* Space CommandTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31F80B32148416CD003C2DBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "UC Berkeley";
+			};
+			buildConfigurationList = 31F80B35148416CD003C2DBF /* Build configuration list for PBXProject "Space Command" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 31F80B30148416CD003C2DBF;
+			productRefGroup = 31F80B3C148416CE003C2DBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31F80B3A148416CE003C2DBF /* Space Command */,
+				31F80B5B148416CE003C2DBF /* Space CommandTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31F80B39148416CE003C2DBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F80B4A148416CE003C2DBF /* InfoPlist.strings in Resources */,
+				31F80B50148416CE003C2DBF /* Credits.rtf in Resources */,
+				31F80B56148416CE003C2DBF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31F80B59148416CE003C2DBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F80B67148416CE003C2DBF /* InfoPlist.strings in Resources */,
+				31F80B69148416CE003C2DBF /* Space_CommandTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31F80B5A148416CE003C2DBF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31F80B37148416CE003C2DBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F80B4C148416CE003C2DBF /* main.m in Sources */,
+				31F80B53148416CE003C2DBF /* Space_CommandAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31F80B57148416CE003C2DBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F80B6B148416CE003C2DBF /* Space_CommandTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31F80B61148416CE003C2DBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31F80B3A148416CE003C2DBF /* Space Command */;
+			targetProxy = 31F80B60148416CE003C2DBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31F80B48148416CE003C2DBF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31F80B49148416CE003C2DBF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		31F80B4E148416CE003C2DBF /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31F80B4F148416CE003C2DBF /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		31F80B54148416CE003C2DBF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31F80B55148416CE003C2DBF /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		31F80B65148416CE003C2DBF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31F80B66148416CE003C2DBF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31F80B6C148416CE003C2DBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		31F80B6D148416CE003C2DBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		31F80B6F148416CE003C2DBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Space Command/Space Command-Prefix.pch";
+				INFOPLIST_FILE = "Space Command/Space Command-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		31F80B70148416CE003C2DBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Space Command/Space Command-Prefix.pch";
+				INFOPLIST_FILE = "Space Command/Space Command-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		31F80B72148416CE003C2DBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Space Command.app/Contents/MacOS/Space Command";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Space Command/Space Command-Prefix.pch";
+				INFOPLIST_FILE = "Space CommandTests/Space CommandTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		31F80B73148416CE003C2DBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Space Command.app/Contents/MacOS/Space Command";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Space Command/Space Command-Prefix.pch";
+				INFOPLIST_FILE = "Space CommandTests/Space CommandTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31F80B35148416CD003C2DBF /* Build configuration list for PBXProject "Space Command" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31F80B6C148416CE003C2DBF /* Debug */,
+				31F80B6D148416CE003C2DBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31F80B6E148416CE003C2DBF /* Build configuration list for PBXNativeTarget "Space Command" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31F80B6F148416CE003C2DBF /* Debug */,
+				31F80B70148416CE003C2DBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		31F80B71148416CE003C2DBF /* Build configuration list for PBXNativeTarget "Space CommandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31F80B72148416CE003C2DBF /* Debug */,
+				31F80B73148416CE003C2DBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31F80B32148416CD003C2DBF /* Project object */;
+}
