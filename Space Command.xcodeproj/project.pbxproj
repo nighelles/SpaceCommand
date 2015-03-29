@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		310E96B41485677A00A9A609 /* SpaceCommandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 310E96B21485677A00A9A609 /* SpaceCommandViewController.m */; };
+		310E96B51485677A00A9A609 /* SpaceCommandViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 310E96B31485677A00A9A609 /* SpaceCommandViewController.xib */; };
+		3118C290148605CE00A0103F /* solar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3118C28F148605CE00A0103F /* solar.png */; };
+		318CD77B1485D5E000B50558 /* myWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 318CD77A1485D5E000B50558 /* myWindow.m */; };
+		31B8FBC81484B22300DD506D /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B8FBC71484B22300DD506D /* GLUT.framework */; };
+		31B8FBCB1484BA5E00DD506D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B8FBCA1484BA5E00DD506D /* QuartzCore.framework */; };
+		31B8FBCD1484BA9900DD506D /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B8FBCC1484BA9900DD506D /* Quartz.framework */; };
 		31F80B40148416CE003C2DBF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31F80B3F148416CE003C2DBF /* Cocoa.framework */; };
 		31F80B4A148416CE003C2DBF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31F80B48148416CE003C2DBF /* InfoPlist.strings */; };
 		31F80B4C148416CE003C2DBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F80B4B148416CE003C2DBF /* main.m */; };
@@ -18,6 +25,22 @@
 		31F80B67148416CE003C2DBF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31F80B65148416CE003C2DBF /* InfoPlist.strings */; };
 		31F80B69148416CE003C2DBF /* Space_CommandTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 31F80B68148416CE003C2DBF /* Space_CommandTests.h */; };
 		31F80B6B148416CE003C2DBF /* Space_CommandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F80B6A148416CE003C2DBF /* Space_CommandTests.m */; };
+		31F80BC114841714003C2DBF /* bigsat.png in Resources */ = {isa = PBXBuildFile; fileRef = 31F80B7814841714003C2DBF /* bigsat.png */; };
+		31F80BE214841714003C2DBF /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F80BA414841714003C2DBF /* Constants.m */; };
+		31F80BE414841714003C2DBF /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F80BA814841714003C2DBF /* Entity.m */; };
+		31F80BE514841714003C2DBF /* GravityWell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F80BAA14841714003C2DBF /* GravityWell.m */; };
+		31F80BE714841714003C2DBF /* universe.xml in Resources */ = {isa = PBXBuildFile; fileRef = 31F80BAD14841714003C2DBF /* universe.xml */; };
+		31F80BE814841714003C2DBF /* earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 31F80BAE14841714003C2DBF /* earth.png */; };
+		31F80BE914841714003C2DBF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 31F80BB014841714003C2DBF /* Credits.rtf */; };
+		31F80BEA14841714003C2DBF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31F80BB214841714003C2DBF /* InfoPlist.strings */; };
+		31F80BEB14841714003C2DBF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31F80BB414841714003C2DBF /* MainMenu.xib */; };
+		31F80BEE14841714003C2DBF /* mars.png in Resources */ = {isa = PBXBuildFile; fileRef = 31F80BB814841714003C2DBF /* mars.png */; };
+		31F80BEF14841714003C2DBF /* moon.png in Resources */ = {isa = PBXBuildFile; fileRef = 31F80BB914841714003C2DBF /* moon.png */; };
+		31F80BF314841714003C2DBF /* satellite.png in Resources */ = {isa = PBXBuildFile; fileRef = 31F80BBF14841714003C2DBF /* satellite.png */; };
+		31F80BF414841714003C2DBF /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 31F80BC014841714003C2DBF /* sun.png */; };
+		31F80BFD14841A7B003C2DBF /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31F80BFC14841A7B003C2DBF /* OpenGL.framework */; };
+		31F80C0014841AAC003C2DBF /* SpaceCommandView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F80BFF14841AAC003C2DBF /* SpaceCommandView.m */; };
+		31F80C0314841F1A003C2DBF /* OrbitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F80C0214841F1A003C2DBF /* OrbitViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,25 +54,55 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		310E96B11485677A00A9A609 /* SpaceCommandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceCommandViewController.h; sourceTree = "<group>"; };
+		310E96B21485677A00A9A609 /* SpaceCommandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceCommandViewController.m; sourceTree = "<group>"; };
+		310E96B31485677A00A9A609 /* SpaceCommandViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpaceCommandViewController.xib; sourceTree = "<group>"; };
+		3118C28F148605CE00A0103F /* solar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = solar.png; path = "Space Command/solar.png"; sourceTree = "<group>"; };
+		318CD7791485D5E000B50558 /* myWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myWindow.h; sourceTree = "<group>"; };
+		318CD77A1485D5E000B50558 /* myWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myWindow.m; sourceTree = "<group>"; };
+		31B8FBC71484B22300DD506D /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
+		31B8FBCA1484BA5E00DD506D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = ../../../../System/Library/Frameworks/QuartzCore.framework; sourceTree = "<group>"; };
+		31B8FBCC1484BA9900DD506D /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = ../../../../System/Library/Frameworks/Quartz.framework; sourceTree = "<group>"; };
 		31F80B3B148416CE003C2DBF /* Space Command.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Command.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31F80B3F148416CE003C2DBF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		31F80B42148416CE003C2DBF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		31F80B43148416CE003C2DBF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		31F80B44148416CE003C2DBF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		31F80B47148416CE003C2DBF /* Space Command-Info.plist */ = {isa = PBXFileReference; path = "Space Command-Info.plist"; sourceTree = "<group>"; };
+		31F80B47148416CE003C2DBF /* Space Command-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Space Command-Info.plist"; sourceTree = "<group>"; };
 		31F80B49148416CE003C2DBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		31F80B4B148416CE003C2DBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		31F80B4D148416CE003C2DBF /* Space Command-Prefix.pch */ = {isa = PBXFileReference; path = "Space Command-Prefix.pch"; sourceTree = "<group>"; };
+		31F80B4D148416CE003C2DBF /* Space Command-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Space Command-Prefix.pch"; sourceTree = "<group>"; };
 		31F80B4F148416CE003C2DBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		31F80B51148416CE003C2DBF /* Space_CommandAppDelegate.h */ = {isa = PBXFileReference; path = Space_CommandAppDelegate.h; sourceTree = "<group>"; };
+		31F80B51148416CE003C2DBF /* Space_CommandAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Space_CommandAppDelegate.h; sourceTree = "<group>"; };
 		31F80B52148416CE003C2DBF /* Space_CommandAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Space_CommandAppDelegate.m; sourceTree = "<group>"; };
 		31F80B55148416CE003C2DBF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		31F80B5C148416CE003C2DBF /* Space CommandTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space CommandTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31F80B5D148416CE003C2DBF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		31F80B64148416CE003C2DBF /* Space CommandTests-Info.plist */ = {isa = PBXFileReference; path = "Space CommandTests-Info.plist"; sourceTree = "<group>"; };
+		31F80B64148416CE003C2DBF /* Space CommandTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Space CommandTests-Info.plist"; sourceTree = "<group>"; };
 		31F80B66148416CE003C2DBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		31F80B68148416CE003C2DBF /* Space_CommandTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Space_CommandTests.h; sourceTree = "<group>"; };
 		31F80B6A148416CE003C2DBF /* Space_CommandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Space_CommandTests.m; sourceTree = "<group>"; };
+		31F80B7814841714003C2DBF /* bigsat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bigsat.png; path = "Space Command/bigsat.png"; sourceTree = "<group>"; };
+		31F80BA314841714003C2DBF /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		31F80BA414841714003C2DBF /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		31F80BA714841714003C2DBF /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
+		31F80BA814841714003C2DBF /* Entity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entity.m; sourceTree = "<group>"; };
+		31F80BA914841714003C2DBF /* GravityWell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GravityWell.h; sourceTree = "<group>"; };
+		31F80BAA14841714003C2DBF /* GravityWell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GravityWell.m; sourceTree = "<group>"; };
+		31F80BAD14841714003C2DBF /* universe.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = universe.xml; sourceTree = "<group>"; };
+		31F80BAE14841714003C2DBF /* earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = earth.png; path = "Space Command/earth.png"; sourceTree = "<group>"; };
+		31F80BB114841714003C2DBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = Credits.rtf; sourceTree = "<group>"; };
+		31F80BB314841714003C2DBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		31F80BB514841714003C2DBF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = MainMenu.xib; sourceTree = "<group>"; };
+		31F80BB814841714003C2DBF /* mars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mars.png; path = "Space Command/mars.png"; sourceTree = "<group>"; };
+		31F80BB914841714003C2DBF /* moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moon.png; path = "Space Command/moon.png"; sourceTree = "<group>"; };
+		31F80BBF14841714003C2DBF /* satellite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = satellite.png; path = "Space Command/satellite.png"; sourceTree = "<group>"; };
+		31F80BC014841714003C2DBF /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sun.png; path = "Space Command/sun.png"; sourceTree = "<group>"; };
+		31F80BFC14841A7B003C2DBF /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = ../../../../System/Library/Frameworks/OpenGL.framework; sourceTree = "<group>"; };
+		31F80BFE14841AAC003C2DBF /* SpaceCommandView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceCommandView.h; sourceTree = "<group>"; };
+		31F80BFF14841AAC003C2DBF /* SpaceCommandView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceCommandView.m; sourceTree = "<group>"; };
+		31F80C0114841F1A003C2DBF /* OrbitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrbitViewController.h; path = "Space Command/OrbitViewController.h"; sourceTree = SOURCE_ROOT; };
+		31F80C0214841F1A003C2DBF /* OrbitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrbitViewController.m; path = "Space Command/OrbitViewController.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +111,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				31F80B40148416CE003C2DBF /* Cocoa.framework in Frameworks */,
+				31F80BFD14841A7B003C2DBF /* OpenGL.framework in Frameworks */,
+				31B8FBC81484B22300DD506D /* GLUT.framework in Frameworks */,
+				31B8FBCB1484BA5E00DD506D /* QuartzCore.framework in Frameworks */,
+				31B8FBCD1484BA9900DD506D /* Quartz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +133,18 @@
 		31F80B30148416CD003C2DBF = {
 			isa = PBXGroup;
 			children = (
+				3118C28F148605CE00A0103F /* solar.png */,
+				310E96B11485677A00A9A609 /* SpaceCommandViewController.h */,
+				310E96B21485677A00A9A609 /* SpaceCommandViewController.m */,
+				310E96B31485677A00A9A609 /* SpaceCommandViewController.xib */,
+				31F80BA214841714003C2DBF /* Classes */,
+				31F80BAE14841714003C2DBF /* earth.png */,
+				31F80BAF14841714003C2DBF /* en.lproj */,
+				31F80BB814841714003C2DBF /* mars.png */,
+				31F80BB914841714003C2DBF /* moon.png */,
+				31F80BBF14841714003C2DBF /* satellite.png */,
+				31F80BC014841714003C2DBF /* sun.png */,
+				31F80B7814841714003C2DBF /* bigsat.png */,
 				31F80B45148416CE003C2DBF /* Space Command */,
 				31F80B62148416CE003C2DBF /* Space CommandTests */,
 				31F80B3E148416CE003C2DBF /* Frameworks */,
@@ -95,6 +164,10 @@
 		31F80B3E148416CE003C2DBF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				31B8FBCC1484BA9900DD506D /* Quartz.framework */,
+				31B8FBCA1484BA5E00DD506D /* QuartzCore.framework */,
+				31B8FBC71484B22300DD506D /* GLUT.framework */,
+				31F80BFC14841A7B003C2DBF /* OpenGL.framework */,
 				31F80B3F148416CE003C2DBF /* Cocoa.framework */,
 				31F80B5D148416CE003C2DBF /* SenTestingKit.framework */,
 				31F80B41148416CE003C2DBF /* Other Frameworks */,
@@ -152,6 +225,38 @@
 				31F80B65148416CE003C2DBF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31F80BA214841714003C2DBF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				31F80C0114841F1A003C2DBF /* OrbitViewController.h */,
+				31F80C0214841F1A003C2DBF /* OrbitViewController.m */,
+				31F80BA314841714003C2DBF /* Constants.h */,
+				31F80BA414841714003C2DBF /* Constants.m */,
+				31F80BFE14841AAC003C2DBF /* SpaceCommandView.h */,
+				31F80BFF14841AAC003C2DBF /* SpaceCommandView.m */,
+				31F80BA714841714003C2DBF /* Entity.h */,
+				31F80BA814841714003C2DBF /* Entity.m */,
+				318CD7791485D5E000B50558 /* myWindow.h */,
+				318CD77A1485D5E000B50558 /* myWindow.m */,
+				31F80BA914841714003C2DBF /* GravityWell.h */,
+				31F80BAA14841714003C2DBF /* GravityWell.m */,
+				31F80BAD14841714003C2DBF /* universe.xml */,
+			);
+			name = Classes;
+			path = "Space Command/Classes";
+			sourceTree = "<group>";
+		};
+		31F80BAF14841714003C2DBF /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				31F80BB014841714003C2DBF /* Credits.rtf */,
+				31F80BB214841714003C2DBF /* InfoPlist.strings */,
+				31F80BB414841714003C2DBF /* MainMenu.xib */,
+			);
+			name = en.lproj;
+			path = "Space Command/en.lproj";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +332,18 @@
 				31F80B4A148416CE003C2DBF /* InfoPlist.strings in Resources */,
 				31F80B50148416CE003C2DBF /* Credits.rtf in Resources */,
 				31F80B56148416CE003C2DBF /* MainMenu.xib in Resources */,
+				31F80BC114841714003C2DBF /* bigsat.png in Resources */,
+				31F80BE714841714003C2DBF /* universe.xml in Resources */,
+				31F80BE814841714003C2DBF /* earth.png in Resources */,
+				31F80BE914841714003C2DBF /* Credits.rtf in Resources */,
+				31F80BEA14841714003C2DBF /* InfoPlist.strings in Resources */,
+				31F80BEB14841714003C2DBF /* MainMenu.xib in Resources */,
+				31F80BEE14841714003C2DBF /* mars.png in Resources */,
+				31F80BEF14841714003C2DBF /* moon.png in Resources */,
+				31F80BF314841714003C2DBF /* satellite.png in Resources */,
+				31F80BF414841714003C2DBF /* sun.png in Resources */,
+				310E96B51485677A00A9A609 /* SpaceCommandViewController.xib in Resources */,
+				3118C290148605CE00A0103F /* solar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +381,13 @@
 			files = (
 				31F80B4C148416CE003C2DBF /* main.m in Sources */,
 				31F80B53148416CE003C2DBF /* Space_CommandAppDelegate.m in Sources */,
+				31F80BE214841714003C2DBF /* Constants.m in Sources */,
+				31F80BE414841714003C2DBF /* Entity.m in Sources */,
+				31F80BE514841714003C2DBF /* GravityWell.m in Sources */,
+				31F80C0014841AAC003C2DBF /* SpaceCommandView.m in Sources */,
+				31F80C0314841F1A003C2DBF /* OrbitViewController.m in Sources */,
+				310E96B41485677A00A9A609 /* SpaceCommandViewController.m in Sources */,
+				318CD77B1485D5E000B50558 /* myWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +440,30 @@
 				31F80B66148416CE003C2DBF /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		31F80BB014841714003C2DBF /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31F80BB114841714003C2DBF /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		31F80BB214841714003C2DBF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31F80BB314841714003C2DBF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		31F80BB414841714003C2DBF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31F80BB514841714003C2DBF /* en */,
+			);
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -435,6 +583,7 @@
 				31F80B70148416CE003C2DBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31F80B71148416CE003C2DBF /* Build configuration list for PBXNativeTarget "Space CommandTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +592,7 @@
 				31F80B73148416CE003C2DBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

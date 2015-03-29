@@ -7,6 +7,7 @@
 //
 
 #import "Space_CommandAppDelegate.h"
+#import "SpaceCommandViewController.h"
 
 @implementation Space_CommandAppDelegate
 
@@ -14,7 +15,12 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    SpaceCommandViewController *spaceController = [[SpaceCommandViewController alloc] 
+                                                   initWithNibName:@"SpaceCommandViewController" bundle:nil];
+    [spaceController loadView];
+    [[[NSApp mainWindow] contentView] enterFullScreenMode:[NSScreen mainScreen] withOptions:nil];
+
+    //[spaceController showWindow:self];
 }
 
 @end
